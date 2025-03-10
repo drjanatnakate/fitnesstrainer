@@ -106,7 +106,13 @@ window.onclick = function(event) {
 <body>
 
 <!--Comment HTML-->
-<h1 class="centertext">Dr Janat Nakate - About Page</h1>
+<h1 class="centertext">Dr Janat Nakate</h1>
+<p class="centertext">Contact me on,
+WhatsApp
++254724693383
++256701421553
+Email janatnakate1234@gmail.com</p>
+
 
 
 <br>

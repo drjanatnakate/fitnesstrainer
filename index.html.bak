@@ -129,8 +129,8 @@ Email janatnakate1234@gmail.com</p>
   <div id="myDropdown" class="dropdown-content">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-	<!--<a href="admin.html">Admin</a> -->
+    <!--<a href="contact.html">Contact</a> -->
+
 	</div>
 </div>
 
