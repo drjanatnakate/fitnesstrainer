@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="jquery-3.3.1.js"></script>
+<script src="index.js"></script>
+
+
+<!-- Style Dropdoen menu -->
+<style>
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+</style>
+<!-- Style Dropdoen menu -->
+
+
+<style>
+table, th, td {
+  border: 1px solid black;
+   text-align: center;
+}
+
+.centertable{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+.centertext {
+ text-align: center;
+}
+
+</style>
+
+
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+   
+</head>
+
+
+<body>
+
+<!--Comment HTML-->
+<h1 class="centertext">Dr Janat Nakate - About Page</h1>
+<div class="row"> 
+  <div class="column" class="center">
+    <img src="images\deborahnjuba.jpg">
+    
+    <img src="images\ruthwilson.jpg">
+	</div>
+	</div>
+<p>
+Home visits and online consultations, personal trainer, physiotherapy and medical advise, 
+targeting stubborn fat through good diet, portion and frequency control,  target exercise 
+and ways to  manage hormal imbalance.
+</p>
+
+
+<p>
+Training will consist proper history taking Plan and advise Physical exercise
+And advise on proper Diet Help  you through a health weight achievement journey
+Licensed Clinican with 5 years of experience
+</p>
+
+<p>
+So basically the great news is you don't need machines to stay in health shape am here to let you know I will work with you to focus on your diet and routine exercise that you can do it around the house with out going to the gym ,  also note that  there are other factors that might affect your weight loss and weight  gain and some of those can be hormonal and so many others,  my  aim is to work with you to find a solution .
+Additionally physical therapy exercises following accident, stroke and chronic backaches  ,neckpain, sport injuries ,
+Rehabilitation following heart attack.
+</p>
+
+<!--
+<p class="centertext">Wound Care</p>
+<p class="centertext">Prescriptions and Medications</p>
+
+-->
+
+<br>
+<br>
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Menu</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+	<!--<a href="admin.html">Admin</a> -->
+	</div>
+</div>
+
+
+<br>
+<br>
+
+	
+	
+
+	<br>
+
+<br>
+
+
+
+</body>
+</html>
